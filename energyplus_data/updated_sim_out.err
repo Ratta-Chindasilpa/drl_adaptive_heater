@@ -1,0 +1,784 @@
+Program Version,EnergyPlus, Version 24.2.0-94a887817b, YMD=2025.03.07 16:45,
+   ** Warning ** Version: in IDF="24.1" not the same as expected="24.2"
+   ** Warning ** Version: in IDF="24.1" not the same as expected="24.2"
+   ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
+   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 1, Standard Pressure (based on elevation) will be used.
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_0_0", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_0_0 1", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_1_0", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_1_0 1", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_2_0", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_2_0 1", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_3_0", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_3_0 1", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_4_0", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_4_0 1", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_5_0", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_5_0 1", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_6_0", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_6_0 1", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_7_0", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="LEFT_SIDE_7_0 1", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_0_7", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_0_8", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_1_7", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_1_8", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_2_7", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_2_8", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_3_7", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_3_8", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_4_7", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_4_8", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_5_7", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_5_8", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_6_7", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_6_8", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_7_7", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetVertices: Roof/Ceiling is not oriented correctly! Tilt angle=[90.0], should be near 0, Surface="RIGHT_SIDE_7_8", in Zone="GREENHOUSE ZONE ROOF".
+   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no "Ground Temperatures" were input.
+   **   ~~~   ** Found first in surface=SURFACE 1
+   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_0_0", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 4".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_0_0 1", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 5".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_1_0", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 8".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_1_0 1", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 9".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_2_0", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 12".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_2_0 1", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 13".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_3_0", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 16".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_3_0 1", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 17".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_4_0", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 20".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_4_0 1", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 21".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_5_0", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 24".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_5_0 1", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 25".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_6_0", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 28".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_6_0 1", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 29".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_7_0", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 33".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="LEFT_SIDE_WINDOW_7_0 1", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 34".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_0_7", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 98".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_0_8", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 99".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_1_7", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 102".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_1_8", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 103".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_2_7", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 106".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_2_8", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 107".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_3_7", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 110".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_3_8", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 111".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_4_7", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 114".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_4_8", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 115".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_5_7", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 118".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_5_8", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 119".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_6_7", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 122".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_6_8", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 123".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_7_7", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 127".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** FenestrationSurface:Detailed="RIGHT_SIDE_WINDOW_7_8", invalid Frame and Divider Name="WINDOW PROPERTY FRAME AND DIVIDER 128".
+   **   ~~~   ** .. because it is a triangular window and cannot have a frame or divider or reveal reflection.
+   **   ~~~   ** Frame, divider and reveal reflection will be ignored for this window.
+   ** Warning ** GetSurfaceData: There are 64 coincident/collinear vertices; These have been deleted unless the deletion would bring the number of surface sides < 3.
+   **   ~~~   ** For explicit details on each problem surface, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** No floor exists in Zone="GREENHOUSE ZONE ROOF", zone floor area is zero. All values for this zone that are entered per floor area will be zero.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_1_1 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_1_1
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_1_2 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_1_2
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_1_3 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_1_3
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_1_4 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_1_4
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_1_5 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_1_5
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_1_6 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_1_6
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_2_1 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_2_1
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_2_2 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_2_2
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_2_3 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_2_3
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_2_4 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_2_4
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_2_5 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_2_5
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_2_6 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_2_6
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_3_1 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_3_1
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_3_2 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_3_2
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_3_3 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_3_3
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_3_4 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_3_4
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_3_5 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_3_5
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_3_6 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_3_6
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_4_1 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_4_1
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_4_2 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_4_2
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_4_3 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_4_3
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_4_4 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_4_4
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_4_5 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_4_5
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_4_6 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_4_6
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_5_1 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_5_1
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_5_2 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_5_2
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_5_3 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_5_3
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_5_4 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_5_4
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_5_5 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_5_5
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_5_6 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_5_6
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_6_1 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_6_1
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_6_2 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_6_2
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_6_3 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_6_3
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_6_4 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_6_4
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_6_5 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_6_5
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Severe  ** For zone: GREENHOUSE_ZONE_6_6 it is not possible to calculate the volume from the surrounding surfaces so either provide the volume value or define all the surfaces to fully enclose the zone.
+   ** Warning ** Indicated Zone Volume <= 0.0 for Zone=GREENHOUSE_ZONE_6_6
+   **   ~~~   ** The calculated Zone Volume was=0.00
+   **   ~~~   ** The simulation will continue with the Zone Volume set to 10.0 m3. 
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual zones.
+   ** Warning ** CalculateZoneVolume: 65 zones are not fully enclosed. For more details use:  Output:Diagnostics,DisplayExtrawarnings; 
+   ** Warning ** CheckUsedConstructions: There are 1 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_1" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_2" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_3" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_4" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_5" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_6" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_1_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_1_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_2_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_2_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_3_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_3_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_4_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_4_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_5_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_5_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_6_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_6_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_1" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_2" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_3" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_4" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_5" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_6" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Severe  ** ComputeIntSolarAbsorpFactors: Solar distribution model is set to place solar gains on the zone floor,
+   **   ~~~   ** but Zone or Enclosure ="GREENHOUSE SPACE ROOF" does not appear to have any floor surfaces.
+   **   ~~~   ** Solar gains will be spread evenly on all surfaces in the zone, and the simulation continues...
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_1" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_2" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_3" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_4" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_5" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_0_6" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_1_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_1_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_2_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_2_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_3_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_3_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_4_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_4_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_5_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_5_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_6_0" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_6_7" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_1" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_2" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_3" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_4" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_5" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** Surfaces in Zone/Enclosure="GREENHOUSE_SPACE_7_6" do not define an enclosure.
+   **   ~~~   ** Number of surfaces <= 3, view factors are set to force reciprocity but may not fulfill completeness.
+   **   ~~~   ** Reciprocity means that radiant exchange between two surfaces will match and not lead to an energy loss.
+   **   ~~~   ** Completeness means that all of the view factors between a surface and the other surfaces in a zone add up to unity.
+   **   ~~~   ** So, when there are three or less surfaces in a zone, EnergyPlus will make sure there are no losses of energy but
+   **   ~~~   ** it will not exchange the full amount of radiation with the rest of the zone as it would if there was a completed enclosure.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 10, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 11, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 12, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 13, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 14, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 15, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 16, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 2, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 3, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 4, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 5, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 6, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 7, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 8, Standard Pressure (based on elevation) will be used.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=31000 differs by more than 10% from Standard Barometric Pressure=101379.
+   **   ~~~   ** ...occurs in DesignDay=SIZING PERIOD DESIGN DAY 9, Standard Pressure (based on elevation) will be used.
+   ** Warning ** Calculated design cooling load for zone=GREENHOUSE_ZONE_0_5 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=GREENHOUSE_ZONE_0_5 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design cooling load for zone=GREENHOUSE_ZONE_1_5 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=GREENHOUSE_ZONE_1_5 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design cooling load for zone=GREENHOUSE_ZONE_2_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=GREENHOUSE_ZONE_2_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design cooling load for zone=GREENHOUSE_ZONE_3_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=GREENHOUSE_ZONE_3_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=GREENHOUSE_ZONE_4_2 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** UpdateZoneSizing: Cooling supply air temperature (calculated) within 5C of zone temperature
+   **   ~~~   ** ...check zone thermostat set point and design supply air temperatures
+   **   ~~~   ** ...zone name = GREENHOUSE_ZONE_4_2
+   **   ~~~   ** ...design sensible cooling load = 175.31 W
+   **   ~~~   ** ...thermostat set point temp    = 0.000 C
+   **   ~~~   ** ...zone temperature             = 17.998 C
+   **   ~~~   ** ...supply air temperature       = 15.000 C
+   **   ~~~   ** ...temperature difference       = -2.99774 C
+   **   ~~~   ** ...calculated volume flow rate  = 4.75943E-002 m3/s
+   **   ~~~   ** ...calculated mass flow rate    = 5.73489E-002 kg/s
+   ** Warning ** Calculated design cooling load for zone=GREENHOUSE_ZONE_4_3 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=GREENHOUSE_ZONE_4_3 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design cooling load for zone=GREENHOUSE_ZONE_6_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design cooling load for zone=GREENHOUSE_ZONE_7_3 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=GREENHOUSE_ZONE_7_3 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ************* Beginning System Sizing Calculations
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:NoReheat = AIR TERMINAL SINGLE DUCT VAV NO REHEAT 2
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:NoReheat = AIR TERMINAL SINGLE DUCT VAV NO REHEAT 6
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:NoReheat = AIR TERMINAL SINGLE DUCT VAV NO REHEAT 1
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:NoReheat = AIR TERMINAL SINGLE DUCT VAV NO REHEAT 5
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:NoReheat = AIR TERMINAL SINGLE DUCT VAV NO REHEAT 4
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:NoReheat = AIR TERMINAL SINGLE DUCT VAV NO REHEAT 8
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:NoReheat = AIR TERMINAL SINGLE DUCT VAV NO REHEAT 3
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:NoReheat = AIR TERMINAL SINGLE DUCT VAV NO REHEAT 7
+   ** Warning ** ManageSizing: Calculated Cooling Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_0_5 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Heating Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_0_5 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Cooling Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_1_5 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Heating Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_1_5 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Cooling Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_2_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Heating Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_2_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Cooling Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_3_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Heating Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_3_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Heating Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_4_2 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Cooling Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_4_3 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Heating Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_4_3 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Cooling Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_6_0 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Cooling Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_7_3 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** ManageSizing: Calculated Heating Design Air Flow Rate for System=AIR LOOP FOR GREENHOUSE_ZONE_7_3 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "COIL COOLING DX SINGLE SPEED 4" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.73 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 02/28 02:08 - 02:11
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 18.091 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** WriteVeriSumTable: InputVerificationsAndResultsSummary: Wall area based on [>=60,<=120] degrees (tilt) as walls
+   **   ~~~   ** differs ~5.3% from user entered Wall class surfaces. Degree calculation based on ASHRAE 90.1 wall definitions.
+   **   ~~~   ** Total wall area by ASHRAE 90.1 definition=539.166 m2.
+   **   ~~~   ** Total exterior wall area from user entered classes=512.000 m2.
+   **   ~~~   ** Total ground contact wall area from user entered classes=0.000 m2.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-RESIDUAL OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-NATURAL GAS" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-COAL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ************* Simulation Error Summary *************
+   ************* There are 9 unused schedules in input.
+   ************* There are 9 unused week schedules in input.
+   ************* There are 9 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="COIL COOLING DX SINGLE SPEED 4" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 7 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.731185  Min=1.460869
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 205 Warning; 37 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 285 Warning; 37 Severe Errors; Elapsed Time=00hr 00min  5.58sec

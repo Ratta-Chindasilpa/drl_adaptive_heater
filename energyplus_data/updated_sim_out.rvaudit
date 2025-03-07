@@ -1,0 +1,13 @@
+ ReadVarsESO
+ processing:energyplus_data\model_files\modified_model.rvi
+ input file:energyplus_data\updated_sim_out.eso
+ output file:energyplus_data\updated_sim_out.csv
+ getting all vars from:energyplus_data\updated_sim_out.eso
+  number variables requested for output=          73
+ ReadVars Run Time=00hr 00min  0.02sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:energyplus_data\model_files\modified_model.mvi
+ Requested ESO file=energyplus_data\updated_sim_out.mtr
+ does not exist.  ReadVarsESO program terminated.
+ ReadVarsESO program terminated.
