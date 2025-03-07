@@ -85,10 +85,7 @@ The results demonstrate that **adaptive control can reduce temperature deviation
 - `energyplus_data/`: Contains outputs from the EnergyPlus simulator.
 
 ### **Step-by-Step Instructions**
-1. **Install Dependencies**
-   ```sh
-   pip install -r requirements.txt
-   ```
+1. **Install and Download every files**
 2. **Train the DRL Model**
    ```sh
    python drl_train.py
