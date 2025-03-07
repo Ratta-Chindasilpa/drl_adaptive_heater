@@ -1,6 +1,4 @@
 # Deep Reinforcement Learning for Adaptive Control of Heater Position and Heating Power in a Smart Greenhouse
-
-## Copyright Statement
 Master's thesis of **Ratta Chindasilpa** at Agricultural Biosystems Engineering, Information Technology Group (INF), Wageningen University and Research, The Netherlands.
 
 **Author:** Ratta Chindasilpa  
