@@ -48,6 +48,7 @@ The results demonstrate that **adaptive control can reduce temperature deviation
 - **EnergyPlus Simulator**
   - Must be downloaded and placed in `C:\EnergyPlusV24-2-0\energyplus.exe`
   - Version: **EnergyPlusV24-2-0**
+  - **Download here:** [EnergyPlus Simulator](https://energyplus.net/downloads)
 - **Python**
   - Version: **3.12.4**
 - **Recommended Computer Specifications**
