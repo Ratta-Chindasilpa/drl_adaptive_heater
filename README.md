@@ -24,8 +24,6 @@ The results demonstrate that **adaptive control can reduce temperature deviation
 
 ### Workflow of the Adaptive Heater Control System
 
-![System Workflow](system_workflow.png)
-
 ### **Explanation of the Diagram:**
 1. **Greenhouse Simulation**: 
    - Simulates the greenhouse environment using **EnergyPlus** and **GreenLightPlus**.
