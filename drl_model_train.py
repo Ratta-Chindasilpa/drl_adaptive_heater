@@ -71,21 +71,21 @@ env = DummyVecEnv([lambda: env])
 model = PPO(
     policy="MlpPolicy",         # Use a Multi-Layer Perceptron policy for both the actor and the critic
     env=env,                    # Greenhouse environment
-    learning_rate=3e-4,         # Learning rate
-    n_steps=115,                # Number of steps to run for each environment per update (rollout length)
-    batch_size=115,             # Batch size for each gradient update
+    learning_rate=3e-4,         # Default learning rate
+    n_steps=2048,                # Number of steps to run for each environment per update (rollout length)
+    batch_size=64,             # Batch size for each gradient update
     n_epochs=10,                # Number of passes (epochs) over the data per update
     gamma=0.99,                 # Discount factor for future rewards
     gae_lambda=0.95,            # Lambda for Generalized Advantage Estimation (GAE)
     clip_range=0.2,             # Clipping parameter for PPO’s objective to ensure small policy updates
-    ent_coef=0.0,               # Entropy coefficient (encourages exploration)
+    ent_coef=0.0,               # Entropy coefficient (encourages exploration; default is 0.0)
     vf_coef=0.5,                # Coefficient for the value function loss term
     max_grad_norm=0.5,          # Maximum gradient norm (for gradient clipping)
     verbose=1                   # Verbosity level (1 prints training information)
 )
 
 # Train the PPO agent
-total_timesteps = 115 * 300  # 115 steps per episode * 300 episodes
+total_timesteps = 115 * 400  # 115 steps per episode * 400 episodes
 model.learn(total_timesteps=total_timesteps, progress_bar=True)
 
 # Save the trained model
